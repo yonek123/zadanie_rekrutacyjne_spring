@@ -17,7 +17,7 @@ Przykładowa komenda uruchamiająca HSQLDB z podanymi ustawieniami z katalogu "h
 # Uruchomienie aplikacji z poziomu cmd:
 java -jar zadanie\target\zadanie-0.0.1-SNAPSHOT.jar
 
-# Przykładowe wywołania usług przy pomocy polecenia curl
+# Przykładowe wywołania usług przy pomocy curl (poprzez konsolę)
 ## Utworzenie reserwacji
 curl -v -d "{ \"reservationStart\": \"2099-05-01\", \"reservationEnd\": \"2099-12-01\", \"ownerId\": 1, \"lesseeId\": 2, \"reservedFacilityId\": 1 }" -H "Content-Type: application/json" http://localhost:8080/api/reservation
 
